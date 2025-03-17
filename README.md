@@ -17,10 +17,14 @@ This project showcases a comprehensive **data warehousing and analytics solution
   - ✅ **Fact Table Relationships** – Ensured a **star schema** design by linking fact tables only through shared dimensions.
 
 #### 📌 **Dimensional Model**
-*(Insert an image of your dimensional model here)*
-```md
-![Dimensional Model](images/dimensional_model.png)
-```
+
+
+![Dimensional Model](./sales-fact.png)
+![Dimensional Model](./inventory-fact.png)
+
+### Final Structure
+![Dimensional Model](./dimensional-model.png)
+
 
 ---
 
@@ -32,10 +36,9 @@ This project showcases a comprehensive **data warehousing and analytics solution
   - 🔗 **Foreign Key Handling** – Managed relationships through **ETL mappings** instead of database constraints for flexibility.
 
 #### 📌 **ETL Pipeline Flow**
-*(Insert an image of your Apache Hop ETL pipeline here)*
-```md
-![ETL Pipeline Flow](images/etl_pipeline.png)
-```
+
+![ETL Pipeline Flow](./etl-pipeline.png)
+
 
 ---
 
@@ -48,10 +51,9 @@ This project showcases a comprehensive **data warehousing and analytics solution
   - 🎛️ **Filters** – Enabled city and category-based data exploration.
 
 #### 📌 **Dashboard Screenshot**
-*(Insert an image of your Tableau dashboard here)*
-```md
-![Dashboard Screenshot](images/dashboard.png)
-```
+
+![Dashboard Screenshot](./dashboard.png)
+
 
 ---
 
@@ -60,22 +62,6 @@ This project showcases a comprehensive **data warehousing and analytics solution
 - 🚀 **ETL Optimization**: Leveraged **Apache Hop** to streamline data transformation and improve efficiency.  
 - 📊 **Visual Analytics**: Used **Tableau** to make complex data more accessible for business users.  
 
-## **Repository Structure**
-```md
-├── data/                    # Sample data files and SQL scripts
-├── etl/                     # Apache Hop ETL pipeline files
-├── dashboard/               # Tableau workbook and screenshots
-├── README.md                # Project documentation (this file)
-```
 
-## **Next Steps**
-- Automate ETL pipeline for **real-time data ingestion**.
-- Expand dataset to include **customer behavior insights**.
-- Optimize **dashboard performance** for large datasets.
 
-## **Author**
-👨‍💻 **Divesh Harchandani**  
-📧 [Your Email]  
-🔗 [LinkedIn Profile]  
-🚀 **University at Buffalo | Business & Entrepreneur Partnerships**  
 
